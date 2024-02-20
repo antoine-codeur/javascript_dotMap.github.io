@@ -54,7 +54,7 @@ console.log(makeStrings([
 
 // 6) Make an array of the names in h1s, and the ages in h2s
 function readyToPutInTheDOM(arr){
-  return arr.map(obj => `<h1>${obj.name}</h1><h2>${obj.age}</h2>`);
+    return arr.map(obj => `<h1>${obj.name}</h1><h2>${obj.age}</h2>`);
 }
 console.log(readyToPutInTheDOM([
     { name: "Angelina Jolie", age: 80 },
